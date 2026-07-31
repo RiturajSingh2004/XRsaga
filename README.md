@@ -8,7 +8,7 @@
 
 ## Architecture
 
-![Architecture](docs/architecture.png)
+[Architecture](docs/architecture.png)
 
 ```
  TRACK A                                     TRACK B

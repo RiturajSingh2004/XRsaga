@@ -5,6 +5,7 @@
 ## Result
 
 ![Result](./beauty_contact_sheet.png)
+![Result](./final_contact_sheet.png)
 
 ## Architecture
 

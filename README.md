@@ -98,6 +98,8 @@ pip install -r requirements.txt
 ```bash
 # 1. Set your OpenRouter key
 export OPENROUTER_API_KEY="sk-or-v1-..."
+OR
+add manually or use local AI model
 
 # 2. Generate 5 backgrounds
 python scripts/02_generate_backgrounds.py
@@ -110,7 +112,7 @@ python scripts/03_lighting_estimation.py --mode opencv
 
 ### Track B — Run Once You Have the Car
 
-1. Download a CC-licensed car GLB from [Sketchfab](https://sketchfab.com) or [Poly Haven](https://polyhaven.com).
+1. Download a CC-licensed car GLB from [Sketchfab](https://sketchfab.com) or [Poly Haven](https://polyhaven.com).[RenderHub](https://www.renderhub.com)
 2. Place it at `assets/car.glb`.
 3. Fill in `car.bounding_box` in `config.yaml` (optional — scripts compute it automatically).
 

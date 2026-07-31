@@ -1,4 +1,4 @@
-# PS1 — Automotive Scene Generation Pipeline
+# XRsaga: PS1 — Automotive Scene Generation Pipeline
 
 > Generate photorealistic images of a fixed 3D car model composited into GenAI-produced backgrounds, with per-scene adaptive lighting.
 

@@ -1,0 +1,72 @@
+{
+  "urban_street": {
+    "azimuth": -9.84,
+    "elevation": 69.87,
+    "ambient_color": [
+      69.3422876001001,
+      74.39129461492743,
+      77.79016516516516
+    ],
+    "max_brightness": 243.0,
+    "brightest_pixel": [
+      684,
+      229
+    ]
+  },
+  "forest": {
+    "azimuth": 0.7,
+    "elevation": 58.27,
+    "ambient_color": [
+      49.609114974349346,
+      75.15516688563564,
+      97.91805379598348
+    ],
+    "max_brightness": 248.0,
+    "brightest_pixel": [
+      774,
+      361
+    ]
+  },
+  "desert": {
+    "azimuth": 68.67,
+    "elevation": 49.48,
+    "ambient_color": [
+      116.79588572947948,
+      127.16948686968217,
+      139.37006537787786
+    ],
+    "max_brightness": 213.0,
+    "brightest_pixel": [
+      1354,
+      461
+    ]
+  },
+  "racetrack": {
+    "azimuth": -6.8,
+    "elevation": 82.88,
+    "ambient_color": [
+      97.30244991084835,
+      99.41023836336336,
+      100.85629574887388
+    ],
+    "max_brightness": 238.0,
+    "brightest_pixel": [
+      710,
+      81
+    ]
+  },
+  "showroom": {
+    "azimuth": -75.7,
+    "elevation": 70.66,
+    "ambient_color": [
+      160.10264756944446,
+      164.1265308277027,
+      169.30180766704203
+    ],
+    "max_brightness": 249.0,
+    "brightest_pixel": [
+      122,
+      220
+    ]
+  }
+}

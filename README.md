@@ -2,7 +2,7 @@
 
 > Generate photorealistic images of a fixed 3D car model composited into GenAI-produced backgrounds, with per-scene adaptive lighting.
 
-## Estimated Ambient Colors
+## Result
 
 ![Result](./beauty_contact_sheet.png)
 

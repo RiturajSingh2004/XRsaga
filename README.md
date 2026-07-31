@@ -17,32 +17,32 @@
  │ (local machine)            │               │ Poly Haven)                │
  └────────────┬───────────────┘               └────────────┬───────────────┘
               │ Seedream 4.5 / FLUX                        │
-              ▼                                             ▼
+              ▼                                            ▼
  ┌──────────────────────────┐               ┌──────────────────────────┐
  │ 5 background images        │               │ Blender (bpy) studio rig  │
  │ outputs/backgrounds/       │               │ fixed camera, shadow      │
  └────────────┬───────────────┘               │ catcher, neutral world    │
-              │                                └────────────┬───────────────┘
-              ▼                                             │ beauty / shadow
+              │                                └───────────┬───────────────┘
+              ▼                                            │ beauty / shadow
  ┌──────────────────────────┐                              │ passes (neutral)
- │ DiffusionLight-Turbo        │                              │
- │ (Colab GPU) or OpenCV       │                              │
- │ fallback → env maps         │                              │
- │ outputs/envmaps/            │                              │
- └────────────┬───────────────┘                              │
-              │                                               │
-              └───────────────────┬───────────────────────────┘
+ │ DiffusionLight-Turbo        │                           │
+ │ (Colab GPU) or OpenCV       │                           │
+ │ fallback → env maps         │                           │
+ │ outputs/envmaps/            │                           │
+ └────────────┬───────────────┘                            │
+              │                                            │
+              └───────────────────┬────────────────────────┘
                                   ▼
                      ┌──────────────────────────┐
-                     │ Blender re-render:          │
-                     │ car + shadow catcher lit     │
-                     │ by each env map              │
-                     └────────────┬───────────────┘
+                     │ Blender re-render:       │
+                     │ car + shadow catcher lit │
+                     │ by each env map          │
+                     └────────────┬─────────────┘
                                   ▼
                      ┌──────────────────────────┐
-                     │ Composite (OpenCV)          │
-                     │ bg → shadow → car            │
-                     └────────────┬───────────────┘
+                     │ Composite (OpenCV)       │
+                     │ bg → shadow → car        │
+                     └────────────┬─────────────┘
                                   ▼
                         5 final images + demo + README
 ```

@@ -1,0 +1,38 @@
+car:
+  path: assets/Riviera Black.glb
+  bounding_box:
+    center:
+    - 0.0020542144775390625
+    - -1.2753717303276062
+    - 0.1676759123802185
+    min:
+    - -0.9650220274925232
+    - -3.9191477298736572
+    - -1.0
+    max:
+    - 0.9691304564476013
+    - 1.3684042692184448
+    - 1.335351824760437
+camera:
+  height_m: 1.2
+  distance_m: 6.0
+  fov_deg: 40
+environments:
+- name: urban_street
+  prompt: empty urban city street, asphalt road, buildings lining both sides, midday
+    overcast light, wide angle, photographed at 1.2m camera height, no cars, no people,
+    clean composition for product placement
+- name: forest
+  prompt: forest dirt road clearing, tall pine trees, dappled sunlight through canopy,
+    golden hour, photographed at 1.2m camera height, no vehicles, clean composition
+- name: desert
+  prompt: desert highway, sand dunes, clear blue sky, harsh midday sun, long shadows,
+    photographed at 1.2m camera height, empty road, clean composition
+- name: racetrack
+  prompt: asphalt racetrack straight, grandstands blurred in background, overcast
+    diffuse light, photographed at 1.2m camera height, no vehicles on track, clean
+    composition
+- name: showroom
+  prompt: minimalist car showroom interior, polished concrete floor, soft studio lighting
+    from above, white walls, photographed at 1.2m camera height, empty floor space,
+    clean composition

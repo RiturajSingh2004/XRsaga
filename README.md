@@ -149,7 +149,7 @@ If you want higher-fidelity environment maps instead of the OpenCV fallback:
 
 | Stage | Script | Track | Cost |
 |---|---|---|---|
-| Background generation | `02_generate_backgrounds.py` | A | ~$0.04–$0.20/image (OpenRouter) |
+| Background generation | `02_generate_backgrounds.py` | A | ~$0.04–$0.20/image (OpenRouter) or $0 manual/local model|
 | Lighting estimation | `03_lighting_estimation.py` | A | $0 (OpenCV) or $0 (Colab GPU) |
 | Studio rig | `01_studio_rig.py` | B | $0 |
 | Relight render | `04_relight_render.py` | B | $0 |

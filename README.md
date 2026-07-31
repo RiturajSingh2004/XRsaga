@@ -11,7 +11,7 @@
 ![Architecture](docs/architecture.png)
 
 ```
- TRACK A (no car needed — do first)         TRACK B (needs car — do when available)
+ TRACK A                                     TRACK B
  ┌──────────────────────────┐               ┌──────────────────────────┐
  │ OpenRouter API             │               │ Car GLB (Sketchfab/       │
  │ (local machine)            │               │ Poly Haven)                │
